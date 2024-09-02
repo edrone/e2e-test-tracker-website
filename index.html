@@ -1,6 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- EDRONE -->
+    <script type="text/javascript">
+      (function (srcjs) {
+        window._edrone = window._edrone || {};
+        _edrone.app_id = "66cf01c00ddc3";
+        _edrone.platform = "universal";
+        _edrone.email = "e2eedronetesttracker@gmail.com";
+        // _edrone.user_id = "1234";
+        _edrone.first_name = "Edrone";
+        let doc = document.createElement("script");
+        doc.type = "text/javascript";
+        doc.async = true;
+        doc.src =
+          ("https:" === document.location.protocol ? "https:" : "http:") +
+          srcjs;
+        let s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(doc, s);
+      })("//d3bo67muzbfgtl.cloudfront.net/edrone_2_0.js?app_id=66cf01c00ddc3");
+    </script>
+
     <!-- basic -->
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
